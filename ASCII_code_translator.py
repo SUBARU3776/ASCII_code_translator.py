@@ -4,11 +4,11 @@ def translate_ascii_code(code):
     else:
         return chr(code)
 
-# ASCIIコードを入力してください
-code = int(input("ASCIIコードを入力してください: "))
+# Please enter ASCII code
+code = int(input("Please enter ASCII code: "))
 
-# ASCIIコードを翻訳して文字に変換
+# Translate ASCII codes into characters
 character = translate_ascii_code(code)
 
-# 結果を表示
-print(f"ASCIIコード {code} は文字 '{character}' に翻訳されます。")
+# Show Results
+print(f"ASCII code {code} are '{character}' translated into text")
